@@ -27,6 +27,11 @@ body {
   color: var(--text-color);
 }
 
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -480,6 +485,7 @@ header.sticky {
   color: var(--main-color);
 }
 
+/* ...existing media queries... */
 @media (max-width: 1545px) {
   header {
     padding: 22px 4%;
